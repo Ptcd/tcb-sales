@@ -1,0 +1,52 @@
+{
+  "name": "google-maps-data-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "setup": "node scripts/setup-supabase.js",
+    "supabase:setup": "node scripts/setup-supabase.js",
+    "supabase:migrate": "node scripts/migrate.js",
+    "supabase:status": "node scripts/check-status.js"
+  },
+  "dependencies": {
+    "@getbrevo/brevo": "^3.0.1",
+    "@googlemaps/google-maps-services-js": "^3.4.2",
+    "@supabase/ssr": "^0.7.0",
+    "@supabase/supabase-js": "^2.75.0",
+    "@tanstack/react-table": "^8.21.3",
+    "@twilio/voice-sdk": "^2.17.0",
+    "@types/tz-lookup": "^6.1.2",
+    "axios": "^1.12.2",
+    "better-sqlite3": "^12.4.1",
+    "cheerio": "^1.1.2",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.0.0",
+    "libphonenumber-js": "^1.12.25",
+    "lucide-react": "^0.545.0",
+    "next": "^16.0.7",
+    "papaparse": "^5.5.3",
+    "phone-number-to-timezone": "^1.0.8",
+    "puppeteer": "^24.25.0",
+    "react": "19.1.2",
+    "react-dom": "19.1.2",
+    "react-hot-toast": "^2.6.0",
+    "sqlite3": "^5.1.7",
+    "tailwind-merge": "^3.3.1",
+    "twilio": "^5.10.4",
+    "tz-lookup": "^6.1.25",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/papaparse": "^5.3.16",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "5.9.3"
+  }
+}

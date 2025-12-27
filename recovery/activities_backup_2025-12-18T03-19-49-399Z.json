@@ -1,0 +1,2141 @@
+[
+  {
+    "id": "8201954e-4152-4067-abe2-f09aababf212",
+    "lead_id": "128dfbe1-320d-481c-850e-a06b4dc50b3e",
+    "user_id": "fbe89088-b1a5-41d3-ba1e-ea883ceef3f6",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message_id": "62021f20-53d0-480d-871a-355047b6c82e"
+    },
+    "description": "SMS sent: For testing crm purposes",
+    "created_at": "2025-11-05T09:29:24.517636+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "4fec889d-2c44-41c6-b4bc-9580dc8f1f3f",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "fbe89088-b1a5-41d3-ba1e-ea883ceef3f6",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message_id": "e625d839-7807-49ea-963c-882b412af650"
+    },
+    "description": "SMS sent: Hi sir, this is a test for the new CRM number and ...",
+    "created_at": "2025-11-05T10:33:32.336431+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "208b67fd-549d-4a75-8478-271af6b00c55",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "fbe89088-b1a5-41d3-ba1e-ea883ceef3f6",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message_id": "aaa91aa4-ad69-41c2-a30e-fccce3d7b206"
+    },
+    "description": "SMS sent: Hi sir, this is a test for the new CRM number and ...",
+    "created_at": "2025-11-05T11:37:34.127239+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "e3ad624c-3b79-4548-8fcc-e5f9a69c3211",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "fbe89088-b1a5-41d3-ba1e-ea883ceef3f6",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message_id": "49183044-8400-4108-b0e7-cd9dbaf129e0"
+    },
+    "description": "SMS sent: Hi sir, this is a test for the new CRM number and ...",
+    "created_at": "2025-11-05T11:43:09.49827+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "60157229-bb07-4376-9ffc-fb4b579fd598",
+    "lead_id": "128dfbe1-320d-481c-850e-a06b4dc50b3e",
+    "user_id": "fbe89088-b1a5-41d3-ba1e-ea883ceef3f6",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message_id": "897fd4d5-ee39-4e29-ab89-665be94f02ef"
+    },
+    "description": "SMS sent: outbound check",
+    "created_at": "2025-11-13T01:45:24.73087+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "f0055a3a-8389-4c73-8c29-f918ec5d522f",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "fbe89088-b1a5-41d3-ba1e-ea883ceef3f6",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message_id": "dee0c10b-c2b8-4f12-bbea-86e57ed0fd43"
+    },
+    "description": "SMS sent: it should work now",
+    "created_at": "2025-11-13T01:46:22.621436+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "62f6dcbb-5ce8-4f2f-868e-2baa80c14633",
+    "lead_id": "1498e822-ee0c-4090-9705-ec035b25aeb8",
+    "user_id": "fbe89088-b1a5-41d3-ba1e-ea883ceef3f6",
+    "activity_type": "email_sent",
+    "activity_data": {
+      "subject": "2nd testing",
+      "email_id": "0a63e5ac-51a3-49dd-8592-0b52bc38f309",
+      "to_email": "ernzkiegemini@gmail.com"
+    },
+    "description": "Sent email: 2nd testing",
+    "created_at": "2025-11-13T22:32:59.090906+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "08ed046a-12c7-4cf5-8823-37a84f178ee2",
+    "lead_id": "1498e822-ee0c-4090-9705-ec035b25aeb8",
+    "user_id": "fbe89088-b1a5-41d3-ba1e-ea883ceef3f6",
+    "activity_type": "email_sent",
+    "activity_data": {
+      "subject": "testing default reply email",
+      "email_id": "296dcfb8-0c87-4134-9fdb-68685a47c13f",
+      "to_email": "ernzkiegemini@gmail.com"
+    },
+    "description": "Sent email: testing default reply email",
+    "created_at": "2025-11-13T23:24:26.925352+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "4aa71850-e33d-4cf0-8944-7f4896e38246",
+    "lead_id": "ab564ac0-32a2-4022-b744-0af4ede8ebe4",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "27aeca05-53f0-40bf-af04-90cccb520a9a",
+      "call_type": "outbound",
+      "phone_number": "(678) 698-6522",
+      "twilio_call_sid": "CA0c43d5d721cb407f1be91249fa89ab5a"
+    },
+    "description": "Called (678) 698-6522 via WebRTC",
+    "created_at": "2025-12-17T21:58:02.161539+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "dd9fc75b-eba8-48d5-8a5c-67075a4bf793",
+    "lead_id": "73d76cf9-a9bb-4ab9-9fad-5368dc1ee788",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "call_id": "cdaba259-6bcf-4243-ab55-67329a4d1930",
+      "outcome": "callback_requested",
+      "lead_status": "follow_up",
+      "outcome_code": "CALLBACK_SCHEDULED",
+      "cta_attempted": true,
+      "next_action_at": "2025-12-18T16:00:00.000Z"
+    },
+    "description": "Call outcome: CALLBACK_SCHEDULED - Status changed to: follow_up - Next action scheduled for 12/18/2025",
+    "created_at": "2025-12-17T22:00:38.021045+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "5dfb6912-df4e-4826-a7e5-8bf21971c007",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "Test again",
+      "direction": "inbound",
+      "twilio_sid": "SM62c5e5f746594347e99ff2b01fe1d5da",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: Test again",
+    "created_at": "2025-12-04T15:30:43.423163+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "d795912d-ec5a-44d0-9d6e-6ce439444fdf",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "?",
+      "direction": "inbound",
+      "twilio_sid": "SM5f195d4629613fd1d8718cd12bc390a2",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: ?",
+    "created_at": "2025-12-04T15:42:16.621297+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "9e1902b0-930c-43e4-aac4-0076fe96075f",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "Hi",
+      "direction": "inbound",
+      "twilio_sid": "SM8fe33ff1bdcfbfa03ff957c1ba7328b6",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: Hi",
+    "created_at": "2025-12-04T15:54:57.042403+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "a45d5365-fdfc-4691-92b5-4b70ea374570",
+    "lead_id": "d5742c84-9a6c-4810-9f7a-6add476c3b71",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "ad3f6fec-2a07-4baf-bb91-47d9d5b1173f",
+      "call_type": "outbound",
+      "phone_number": "(901) 258-8999",
+      "twilio_call_sid": "CAda5555124b47fe892e17d04d6c90dc5f"
+    },
+    "description": "Called (901) 258-8999 via WebRTC",
+    "created_at": "2025-12-17T22:59:00.068391+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "5dfe3429-eb57-43f4-a006-fc809a609888",
+    "lead_id": "d5742c84-9a6c-4810-9f7a-6add476c3b71",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "call_id": "ad3f6fec-2a07-4baf-bb91-47d9d5b1173f",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:59:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026",
+    "created_at": "2025-12-17T22:59:10.381185+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "105ceec2-6fbd-4e7f-88b0-73d5d14bae2c",
+    "lead_id": "ab564ac0-32a2-4022-b744-0af4ede8ebe4",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "hung up",
+      "call_id": "27aeca05-53f0-40bf-af04-90cccb520a9a",
+      "outcome": "not_interested",
+      "lead_status": "not_interested",
+      "outcome_code": "NOT_INTERESTED",
+      "cta_attempted": true,
+      "next_action_at": "2026-03-17T21:59:00.000Z"
+    },
+    "description": "Call outcome: NOT_INTERESTED - Status changed to: not_interested - Next action scheduled for 3/17/2026 - Notes: hung up",
+    "created_at": "2025-12-17T21:59:33.931267+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "6568da9c-b25a-4e32-a9b1-47a0589bc299",
+    "lead_id": "68255e27-bf53-4ad7-bd92-d37b5050d808",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "79a0ebf2-52e0-41b1-82c6-f55383d4f791",
+      "call_type": "outbound",
+      "phone_number": "(732) 574-1945",
+      "twilio_call_sid": "CA2941f7865c858d6de67b3b3b142b51cc"
+    },
+    "description": "Called (732) 574-1945 via WebRTC",
+    "created_at": "2025-12-17T22:00:07.367652+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "f463d353-b972-4335-bd8c-4fba070b2bc0",
+    "lead_id": "83bb6b9c-8f4e-4813-a902-2829f93bfa07",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "2adbc67f-20cc-412e-b414-92d31175d431",
+      "call_type": "outbound",
+      "phone_number": "(770) 548-6895",
+      "twilio_call_sid": "CAeaa09c3a216160fbf63ba4375f9711af"
+    },
+    "description": "Called (770) 548-6895 via WebRTC",
+    "created_at": "2025-12-17T22:00:42.565915+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "533cc8ac-5add-492e-9a95-89f6a125d7cc",
+    "lead_id": "83bb6b9c-8f4e-4813-a902-2829f93bfa07",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "call_id": "2adbc67f-20cc-412e-b414-92d31175d431",
+      "outcome": "callback_requested",
+      "lead_status": "follow_up",
+      "outcome_code": "CALLBACK_SCHEDULED",
+      "cta_attempted": true,
+      "next_action_at": "2025-12-18T16:01:00.000Z"
+    },
+    "description": "Call outcome: CALLBACK_SCHEDULED - Status changed to: follow_up - Next action scheduled for 12/18/2025",
+    "created_at": "2025-12-17T22:02:00.087817+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "ab0b459e-c403-4803-a2da-b5b74ecfb5d4",
+    "lead_id": "68255e27-bf53-4ad7-bd92-d37b5050d808",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "call_id": "79a0ebf2-52e0-41b1-82c6-f55383d4f791",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:04:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026",
+    "created_at": "2025-12-17T22:04:07.722531+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "eaf0128d-cf55-4feb-ac5c-7f62d36df61c",
+    "lead_id": "797a7561-cdf4-4a80-82b2-8ee5e5032943",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "call_id": "d709313e-b189-4771-bbeb-cc446a564cf4",
+      "outcome": "callback_requested",
+      "lead_status": "follow_up",
+      "outcome_code": "CALLBACK_SCHEDULED",
+      "cta_attempted": true,
+      "next_action_at": "2026-01-15T16:00:00.000Z"
+    },
+    "description": "Call outcome: CALLBACK_SCHEDULED - Status changed to: follow_up - Next action scheduled for 1/15/2026",
+    "created_at": "2025-12-17T22:05:03.869304+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "1160d5a9-186b-4673-bc25-1ebe49f7c12f",
+    "lead_id": "fa996f01-2f80-4370-855e-eb3c8d4e7d13",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "voicemail",
+      "call_id": "b1b2c1a3-b045-4552-82a0-442e2589bfa4",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:05:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: voicemail",
+    "created_at": "2025-12-17T22:05:44.830751+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "1cd2bc01-7fbd-4629-bbd9-6825082ed311",
+    "lead_id": "d941510a-c5a1-4bca-8605-38a83e1f29b0",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "left a VM",
+      "call_id": "50a9e51d-062f-41a0-a6e3-fda5fb0351c7",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:07:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: left a VM",
+    "created_at": "2025-12-17T22:07:27.511261+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "e85afae6-59a7-4a70-8e30-be954a2f0fe3",
+    "lead_id": "92fc5a95-20bf-42d6-b3a0-4615892e5917",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "no answer",
+      "call_id": "2ee68482-5f13-42a5-90c6-1693e8b93bfe",
+      "outcome": "callback_requested",
+      "lead_status": "follow_up",
+      "outcome_code": "CALLBACK_SCHEDULED",
+      "cta_attempted": true,
+      "next_action_at": "2025-12-18T16:07:00.000Z"
+    },
+    "description": "Call outcome: CALLBACK_SCHEDULED - Status changed to: follow_up - Next action scheduled for 12/18/2025 - Notes: no answer",
+    "created_at": "2025-12-17T22:07:48.931005+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "917fae06-c007-4054-8043-08f842a8f1e0",
+    "lead_id": "d85d36af-c3fb-4299-8512-4dd1bd838dea",
+    "user_id": "2d69ead7-5742-428b-84cd-a615955f5933",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "Please text me.",
+      "direction": "inbound",
+      "twilio_sid": "SM21b96d3da381530af6cc4044896602c4",
+      "phone_number": "+16783589216"
+    },
+    "description": "Received SMS: Please text me.",
+    "created_at": "2025-12-17T22:08:23.641337+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "aae9e3ae-0a53-4038-b644-6a30853baae8",
+    "lead_id": "616275f0-84b7-400a-aab5-bf0a795029e8",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "4b826489-e3c6-4294-867d-2096f90a69a6",
+      "call_type": "outbound",
+      "phone_number": "(732) 381-2646",
+      "twilio_call_sid": "CA4c13b5aafacf12ff1b45949f70ddf825"
+    },
+    "description": "Called (732) 381-2646 via WebRTC",
+    "created_at": "2025-12-17T22:09:21.498169+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "e7f75fe4-86ec-424e-a9c5-0b0da1d7931e",
+    "lead_id": "616275f0-84b7-400a-aab5-bf0a795029e8",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "left a VM",
+      "call_id": "4b826489-e3c6-4294-867d-2096f90a69a6",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:11:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: left a VM",
+    "created_at": "2025-12-17T22:11:36.009583+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "5019f659-bb1d-4e42-8b25-68560a9ef7c2",
+    "lead_id": "5b4de6a8-b0e4-4c58-8f0d-e1e948142090",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "7008ab0e-ec71-46af-b1ed-651c855d2c1b",
+      "call_type": "outbound",
+      "phone_number": "(973) 748-4597",
+      "twilio_call_sid": "CA0035e351956925ae024f0b2686932d28"
+    },
+    "description": "Called (973) 748-4597 via WebRTC",
+    "created_at": "2025-12-17T22:11:39.764017+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "37e83649-bddf-4b70-8403-dd851f212950",
+    "lead_id": "ad2dafcb-804d-49c3-af1f-a011245a463d",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "9dc3621d-0387-45b5-9ee5-fdfc4dc90417",
+      "call_type": "outbound",
+      "phone_number": "(855) 294-0940",
+      "twilio_call_sid": "CA48a5796835aebc1e654d734a33f687ee"
+    },
+    "description": "Called (855) 294-0940 via WebRTC",
+    "created_at": "2025-12-17T22:12:05.386109+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "baa1bb18-c83e-4e88-82db-7ddcf5d9cba9",
+    "lead_id": "bbd89919-d7cf-4581-8e2f-9f4f5d41985d",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "b4436d2d-0b22-4dc9-971c-23c7e06d8699",
+      "call_type": "outbound",
+      "phone_number": "(470) 210-6006",
+      "twilio_call_sid": "CAc1cc2c47b629940f3c1ec344351ce1a2"
+    },
+    "description": "Called (470) 210-6006 via WebRTC",
+    "created_at": "2025-12-17T22:13:31.226365+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "42b3b86e-fb43-4118-b79f-b4ec94754a48",
+    "lead_id": "19a397e6-10ac-4b0e-b534-3472fb70f8c5",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "feda12ec-4cf6-422c-b0fb-d68c0830ac41",
+      "call_type": "outbound",
+      "phone_number": "(470) 709-7655",
+      "twilio_call_sid": "CAa96012ac166dbbd7ab36b382a51bb04a"
+    },
+    "description": "Called (470) 709-7655 via WebRTC",
+    "created_at": "2025-12-17T22:15:38.598194+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "2caaca54-4747-480a-83fe-9519fbc6fa8d",
+    "lead_id": "19a397e6-10ac-4b0e-b534-3472fb70f8c5",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "not available",
+      "call_id": "feda12ec-4cf6-422c-b0fb-d68c0830ac41",
+      "outcome": "callback_requested",
+      "lead_status": "follow_up",
+      "outcome_code": "CALLBACK_SCHEDULED",
+      "cta_attempted": true,
+      "next_action_at": "2025-12-18T16:00:00.000Z"
+    },
+    "description": "Call outcome: CALLBACK_SCHEDULED - Status changed to: follow_up - Next action scheduled for 12/18/2025 - Notes: not available",
+    "created_at": "2025-12-17T22:16:44.641596+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "c815ac61-4bc6-431e-b327-c5df58abe7ed",
+    "lead_id": "f6c6ff15-eae6-41c8-8631-178f67705aff",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "6439dbeb-e39e-4376-9ada-6086ab21216e",
+      "call_type": "outbound",
+      "phone_number": "(770) 258-4541",
+      "twilio_call_sid": "CA3496d25af5eeba59ae245ee80681a5a1"
+    },
+    "description": "Called (770) 258-4541 via WebRTC",
+    "created_at": "2025-12-17T22:17:09.302321+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "671537d6-6e8a-4720-b76d-44de2aed1e12",
+    "lead_id": "73d76cf9-a9bb-4ab9-9fad-5368dc1ee788",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "cdaba259-6bcf-4243-ab55-67329a4d1930",
+      "call_type": "outbound",
+      "phone_number": "(404) 437-2010",
+      "twilio_call_sid": "CAe70bc04c7678492f8d81f3b6eb796046"
+    },
+    "description": "Called (404) 437-2010 via WebRTC",
+    "created_at": "2025-12-17T21:59:38.479939+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "6ddde89e-155c-490b-8799-8e63ceb2b96f",
+    "lead_id": "d3f30b1b-5a19-4de4-a701-358895094ecf",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "db4f61ca-6443-47de-a3c5-bbaf3ba0a5ed",
+      "call_type": "outbound",
+      "phone_number": "(770) 608-0808",
+      "twilio_call_sid": "CAd0791d16181acf355bb9e0cbd2e51260"
+    },
+    "description": "Called (770) 608-0808 via WebRTC",
+    "created_at": "2025-12-17T22:02:05.577056+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "49127e70-65bd-4409-b1e2-509eb4e62421",
+    "lead_id": "ccb4042a-5a38-4e16-97e9-7aef3b1c49e6",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "62f53741-f8ef-473f-bbe0-0abf516a303d",
+      "call_type": "outbound",
+      "phone_number": "(404) 678-1850",
+      "twilio_call_sid": "CAb0d80b448cd36dfa72e20291b9efd4dc"
+    },
+    "description": "Called (404) 678-1850 via WebRTC",
+    "created_at": "2025-12-17T22:02:52.859684+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "66255850-67ca-43c3-9ce6-fcfa36255c45",
+    "lead_id": "2d08ad54-9751-4a21-bfe9-006a77c29388",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "d7667c77-0398-477c-bbb9-4c3d2181ed5a",
+      "call_type": "outbound",
+      "phone_number": "(571) 506-0001",
+      "twilio_call_sid": "CAe9039d321100414d35c0b4f89f9cde04"
+    },
+    "description": "Called (571) 506-0001 via WebRTC",
+    "created_at": "2025-12-17T22:03:35.82848+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "3e3d2882-3c86-4727-9395-c305a92d8937",
+    "lead_id": "2d08ad54-9751-4a21-bfe9-006a77c29388",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "no answer",
+      "call_id": "d7667c77-0398-477c-bbb9-4c3d2181ed5a",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:03:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: no answer",
+    "created_at": "2025-12-17T22:03:49.277631+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "b1574e70-19ef-4a99-9ef8-b961a8ec198a",
+    "lead_id": "fa996f01-2f80-4370-855e-eb3c8d4e7d13",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "b1b2c1a3-b045-4552-82a0-442e2589bfa4",
+      "call_type": "outbound",
+      "phone_number": "(678) 927-0987",
+      "twilio_call_sid": "CA522fa4dc6670b54a83b91c243e733a6f"
+    },
+    "description": "Called (678) 927-0987 via WebRTC",
+    "created_at": "2025-12-17T22:05:11.864281+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "755e9934-46b1-4f2f-86ec-f98de24489b3",
+    "lead_id": "9310dc81-69ec-4eb4-8a78-ac3f8b9eed15",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "29db8e75-f91c-4453-a24f-1b483fe89463",
+      "call_type": "outbound",
+      "phone_number": "(770) 242-8844",
+      "twilio_call_sid": "CA09c7005bf0f876820a0f6798c1b6c4e9"
+    },
+    "description": "Called (770) 242-8844 via WebRTC",
+    "created_at": "2025-12-17T22:05:57.827638+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "2d9bd619-3142-4ae7-86d1-8a791b812fad",
+    "lead_id": "92fc5a95-20bf-42d6-b3a0-4615892e5917",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "2ee68482-5f13-42a5-90c6-1693e8b93bfe",
+      "call_type": "outbound",
+      "phone_number": "(404) 936-7235",
+      "twilio_call_sid": "CA497e4fab427dd38c1e8a944e29954072"
+    },
+    "description": "Called (404) 936-7235 via WebRTC",
+    "created_at": "2025-12-17T22:06:43.784037+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "8535dd0f-023b-494f-a7a9-31fd18c0254f",
+    "lead_id": "d85d36af-c3fb-4299-8512-4dd1bd838dea",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "d8fae432-c41f-46d7-9eb3-4cafe0f344ec",
+      "call_type": "outbound",
+      "phone_number": "(678) 358-9216",
+      "twilio_call_sid": "CA325607f52ef6fea66ec97110524ec8d1"
+    },
+    "description": "Called (678) 358-9216 via WebRTC",
+    "created_at": "2025-12-17T22:07:53.512394+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "1966a5b0-cc18-4662-95e2-3e53b294db54",
+    "lead_id": "d85d36af-c3fb-4299-8512-4dd1bd838dea",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "voicemail",
+      "call_id": "d8fae432-c41f-46d7-9eb3-4cafe0f344ec",
+      "outcome": "callback_requested",
+      "lead_status": "follow_up",
+      "outcome_code": "CALLBACK_SCHEDULED",
+      "cta_attempted": true,
+      "next_action_at": "2026-01-15T16:00:00.000Z"
+    },
+    "description": "Call outcome: CALLBACK_SCHEDULED - Status changed to: follow_up - Next action scheduled for 1/15/2026 - Notes: voicemail",
+    "created_at": "2025-12-17T22:09:21.52792+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "7e557473-234f-4b06-843a-b01ed95e4c7f",
+    "lead_id": "90aecabd-8170-4b1a-af73-76ccc399fb94",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "hung up",
+      "call_id": "bd016977-e61c-4385-9060-6fdec0647402",
+      "outcome": "not_interested",
+      "lead_status": "not_interested",
+      "outcome_code": "NOT_INTERESTED",
+      "cta_attempted": true,
+      "next_action_at": "2026-03-17T22:11:00.000Z"
+    },
+    "description": "Call outcome: NOT_INTERESTED - Status changed to: not_interested - Next action scheduled for 3/17/2026 - Notes: hung up",
+    "created_at": "2025-12-17T22:11:37.303508+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "8a688f38-c3bd-4fe4-9f39-4b4b608a0fcb",
+    "lead_id": "82d1fe6e-1bd7-44bf-b6cd-41d1c419d89b",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "247615f0-9f90-440d-bcbd-9f8429df1833",
+      "call_type": "outbound",
+      "phone_number": "(571) 534-4193",
+      "twilio_call_sid": "CA3f96b7b2bccd9b42063999ac1791de28"
+    },
+    "description": "Called (571) 534-4193 via WebRTC",
+    "created_at": "2025-12-17T22:11:44.451987+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "5a6ab7e6-8226-45bc-91a4-541eec54274e",
+    "lead_id": "82d1fe6e-1bd7-44bf-b6cd-41d1c419d89b",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "not available",
+      "call_id": "247615f0-9f90-440d-bcbd-9f8429df1833",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:11:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: not available",
+    "created_at": "2025-12-17T22:12:01.708511+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "7a39bf8a-e133-4d80-bdd0-25d0f7ed0e8d",
+    "lead_id": "bbd89919-d7cf-4581-8e2f-9f4f5d41985d",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "hung up",
+      "call_id": "b4436d2d-0b22-4dc9-971c-23c7e06d8699",
+      "outcome": "not_interested",
+      "lead_status": "not_interested",
+      "outcome_code": "NOT_INTERESTED",
+      "cta_attempted": true,
+      "next_action_at": "2026-03-17T22:14:00.000Z"
+    },
+    "description": "Call outcome: NOT_INTERESTED - Status changed to: not_interested - Next action scheduled for 3/17/2026 - Notes: hung up",
+    "created_at": "2025-12-17T22:14:22.366307+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "ef49117b-6070-4811-a0e0-2c42cc793407",
+    "lead_id": "8223168b-8ea8-4f50-b154-404f11f1e112",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "16c4ac57-b9e7-4c70-867d-b8ad7fd92cce",
+      "call_type": "outbound",
+      "phone_number": "(609) 246-1953",
+      "twilio_call_sid": "CA43a8b26c1f0145927fc95a8d8dcfe377"
+    },
+    "description": "Called (609) 246-1953 via WebRTC",
+    "created_at": "2025-12-17T22:16:02.33701+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "8d1551f7-f56d-4be7-97ef-aa305528e5e3",
+    "lead_id": "20c8ec5a-cef6-4c1d-98b3-5bd4a12c657b",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "closed",
+      "call_id": "10cfa0f2-559d-462c-91a3-cc8c87f63a26",
+      "outcome": "callback_requested",
+      "lead_status": "follow_up",
+      "outcome_code": "CALLBACK_SCHEDULED",
+      "cta_attempted": true,
+      "next_action_at": "2025-12-18T16:25:00.000Z"
+    },
+    "description": "Call outcome: CALLBACK_SCHEDULED - Status changed to: follow_up - Next action scheduled for 12/18/2025 - Notes: closed",
+    "created_at": "2025-12-17T22:19:28.358243+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "0bc05457-73fb-41d3-b809-204655e322f4",
+    "lead_id": "940f6762-2c29-45bb-a22c-bc75deaaf62d",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "f46db3dc-d5d8-4d0b-b0c2-40eeb7adea03",
+      "call_type": "outbound",
+      "phone_number": "(404) 997-3939",
+      "twilio_call_sid": "CAb9a9ef65891b8262834d9d5e08f57509"
+    },
+    "description": "Called (404) 997-3939 via WebRTC",
+    "created_at": "2025-12-17T22:19:50.972217+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "01974175-d7ef-4a9a-b328-efbefc2dc954",
+    "lead_id": "8223168b-8ea8-4f50-b154-404f11f1e112",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "call_id": "16c4ac57-b9e7-4c70-867d-b8ad7fd92cce",
+      "outcome": "not_interested",
+      "lead_status": "not_interested",
+      "outcome_code": "NOT_INTERESTED",
+      "cta_attempted": true,
+      "next_action_at": "2026-03-17T21:20:00.000Z"
+    },
+    "description": "Call outcome: NOT_INTERESTED - Status changed to: not_interested - Next action scheduled for 3/17/2026",
+    "created_at": "2025-12-17T22:20:38.271753+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "35968cc1-1ad8-4f14-a008-4a3d7a3d9b9c",
+    "lead_id": "d3f30b1b-5a19-4de4-a701-358895094ecf",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "call_id": "db4f61ca-6443-47de-a3c5-bbaf3ba0a5ed",
+      "outcome": "callback_requested",
+      "lead_status": "follow_up",
+      "outcome_code": "CALLBACK_SCHEDULED",
+      "cta_attempted": true,
+      "next_action_at": "2025-12-18T16:02:00.000Z"
+    },
+    "description": "Call outcome: CALLBACK_SCHEDULED - Status changed to: follow_up - Next action scheduled for 12/18/2025",
+    "created_at": "2025-12-17T22:02:46.873518+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "14de012e-55ce-49c5-90ab-588f21a062ad",
+    "lead_id": "ccb4042a-5a38-4e16-97e9-7aef3b1c49e6",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "voicemail",
+      "call_id": "62f53741-f8ef-473f-bbe0-0abf516a303d",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:03:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: voicemail",
+    "created_at": "2025-12-17T22:03:26.903908+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "a8a3c2ed-e845-4b72-b83f-7bff6e8116f6",
+    "lead_id": "797a7561-cdf4-4a80-82b2-8ee5e5032943",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "d709313e-b189-4771-bbeb-cc446a564cf4",
+      "call_type": "outbound",
+      "phone_number": "(678) 960-9970",
+      "twilio_call_sid": "CA4526b63f142688abe719ed1af169189d"
+    },
+    "description": "Called (678) 960-9970 via WebRTC",
+    "created_at": "2025-12-17T22:03:53.339254+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "fea043eb-18fb-4732-87fe-63f90cf883e2",
+    "lead_id": "d941510a-c5a1-4bca-8605-38a83e1f29b0",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "50a9e51d-062f-41a0-a6e3-fda5fb0351c7",
+      "call_type": "outbound",
+      "phone_number": "(732) 928-2904",
+      "twilio_call_sid": "CAfd763a1a0a8faf2543bd0f3c0032770f"
+    },
+    "description": "Called (732) 928-2904 via WebRTC",
+    "created_at": "2025-12-17T22:05:25.461031+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "2c53551d-7580-4ada-b62b-5605475cee24",
+    "lead_id": "9310dc81-69ec-4eb4-8a78-ac3f8b9eed15",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "no answer",
+      "call_id": "29db8e75-f91c-4453-a24f-1b483fe89463",
+      "outcome": "busy",
+      "lead_status": "contacted",
+      "outcome_code": "BUSY",
+      "next_action_at": "2026-01-16T22:06:00.000Z"
+    },
+    "description": "Call outcome: BUSY - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: no answer",
+    "created_at": "2025-12-17T22:06:29.884704+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "6df50f28-9d21-4fb3-8be1-4e2c782e5ce5",
+    "lead_id": "90aecabd-8170-4b1a-af73-76ccc399fb94",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "bd016977-e61c-4385-9060-6fdec0647402",
+      "call_type": "outbound",
+      "phone_number": "(706) 204-9819",
+      "twilio_call_sid": "CA790b336d42215d5576d7ac12e83f6ca8"
+    },
+    "description": "Called (706) 204-9819 via WebRTC",
+    "created_at": "2025-12-17T22:09:38.475854+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "33fa50bc-8438-4e67-a179-fbb0dad99ab9",
+    "lead_id": "5b4de6a8-b0e4-4c58-8f0d-e1e948142090",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "left a VM",
+      "call_id": "7008ab0e-ec71-46af-b1ed-651c855d2c1b",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:13:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: left a VM",
+    "created_at": "2025-12-17T22:13:09.714045+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "70b19a1c-7b78-47e5-ad48-ec1b3fa2783b",
+    "lead_id": "8b8f0f92-b039-4e0c-8286-4c3fd77890f7",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "174cbe1c-519a-4cf4-8355-2280827ee423",
+      "call_type": "outbound",
+      "phone_number": "(856) 728-7300",
+      "twilio_call_sid": "CAdbf6e4ddab54d732f591029da45a4c2f"
+    },
+    "description": "Called (856) 728-7300 via WebRTC",
+    "created_at": "2025-12-17T22:13:13.488046+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "a240ee24-fcee-4045-8f5b-4523bb9a590b",
+    "lead_id": "ad2dafcb-804d-49c3-af1f-a011245a463d",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "manager not available",
+      "call_id": "9dc3621d-0387-45b5-9ee5-fdfc4dc90417",
+      "outcome": "busy",
+      "lead_status": "contacted",
+      "outcome_code": "BUSY",
+      "next_action_at": "2026-01-16T22:13:00.000Z"
+    },
+    "description": "Call outcome: BUSY - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: manager not available",
+    "created_at": "2025-12-17T22:13:26.447137+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "2b903d2e-00b6-4561-857b-8032c0aa9308",
+    "lead_id": "8b8f0f92-b039-4e0c-8286-4c3fd77890f7",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "left a VM",
+      "call_id": "174cbe1c-519a-4cf4-8355-2280827ee423",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:15:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: left a VM",
+    "created_at": "2025-12-17T22:16:00.123075+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "11f9520d-8002-4f78-8d85-877d5c811482",
+    "lead_id": "f6c6ff15-eae6-41c8-8631-178f67705aff",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "hungup\n",
+      "call_id": "6439dbeb-e39e-4376-9ada-6086ab21216e",
+      "outcome": "not_interested",
+      "lead_status": "not_interested",
+      "outcome_code": "NOT_INTERESTED",
+      "cta_attempted": true,
+      "next_action_at": "2026-03-17T22:17:00.000Z"
+    },
+    "description": "Call outcome: NOT_INTERESTED - Status changed to: not_interested - Next action scheduled for 3/17/2026 - Notes: hungup\n",
+    "created_at": "2025-12-17T22:18:05.337479+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "972ea3de-fa35-4a7b-99a9-9723e5ffe1f1",
+    "lead_id": "20c8ec5a-cef6-4c1d-98b3-5bd4a12c657b",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "10cfa0f2-559d-462c-91a3-cc8c87f63a26",
+      "call_type": "outbound",
+      "phone_number": "(607) 775-1900",
+      "twilio_call_sid": "CA406ccf5edf31cf6fdfb97a78717e8048"
+    },
+    "description": "Called (607) 775-1900 via WebRTC",
+    "created_at": "2025-12-17T22:18:09.878731+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "e55f7316-693e-4813-b23e-b9a3f4411fdd",
+    "lead_id": "cd5158bb-c273-475a-b3db-c0418c513ac8",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "997efecd-1bb0-4c6e-9e1e-ed0d27fe7c4f",
+      "call_type": "outbound",
+      "phone_number": "(973) 887-1150",
+      "twilio_call_sid": "CA1351a53086f00c3d07cc53dfdb198272"
+    },
+    "description": "Called (973) 887-1150 via WebRTC",
+    "created_at": "2025-12-17T22:20:41.155581+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "244e3327-94a3-41aa-b735-84e33b4b13e3",
+    "lead_id": "940f6762-2c29-45bb-a22c-bc75deaaf62d",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "manager not available",
+      "call_id": "f46db3dc-d5d8-4d0b-b0c2-40eeb7adea03",
+      "outcome": "callback_requested",
+      "lead_status": "follow_up",
+      "outcome_code": "CALLBACK_SCHEDULED",
+      "cta_attempted": true,
+      "next_action_at": "2025-12-18T16:54:00.000Z"
+    },
+    "description": "Call outcome: CALLBACK_SCHEDULED - Status changed to: follow_up - Next action scheduled for 12/18/2025 - Notes: manager not available",
+    "created_at": "2025-12-17T22:21:30.504009+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "dd58eadc-2c9f-4aba-b77c-592f5e46f2dc",
+    "lead_id": "fb77f113-0a7b-4740-a92b-2adba9b40482",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "774c4ba4-6bc2-4c85-b1b6-91b095662f17",
+      "call_type": "outbound",
+      "phone_number": "(470) 824-5865",
+      "twilio_call_sid": "CA995750fc7d4d1371f455f8930f1cbea2"
+    },
+    "description": "Called (470) 824-5865 via WebRTC",
+    "created_at": "2025-12-17T22:21:35.081694+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "694dbddc-2b52-4323-99d0-fc91ed8ee38c",
+    "lead_id": "fb77f113-0a7b-4740-a92b-2adba9b40482",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "no answer",
+      "call_id": "774c4ba4-6bc2-4c85-b1b6-91b095662f17",
+      "outcome": "busy",
+      "lead_status": "contacted",
+      "outcome_code": "BUSY",
+      "next_action_at": "2026-01-16T22:22:00.000Z"
+    },
+    "description": "Call outcome: BUSY - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: no answer",
+    "created_at": "2025-12-17T22:22:22.935472+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "98f934a5-0e42-4527-b96d-1afcdd4cd650",
+    "lead_id": "27fb40e1-c85a-4e06-896a-a97683b41a3d",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "a8b54cd9-eac5-4364-a67e-bc13a4221e41",
+      "call_type": "outbound",
+      "phone_number": "(804) 632-8697",
+      "twilio_call_sid": "CA7cc59ca8ed2d1ac5df9baefe0bb2f488"
+    },
+    "description": "Called (804) 632-8697 via WebRTC",
+    "created_at": "2025-12-17T22:22:30.291354+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "03c613c9-7cdf-48c2-8cb4-2795b118ae28",
+    "lead_id": "cd5158bb-c273-475a-b3db-c0418c513ac8",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "callback tomorrow",
+      "call_id": "997efecd-1bb0-4c6e-9e1e-ed0d27fe7c4f",
+      "outcome": "callback_requested",
+      "lead_status": "follow_up",
+      "outcome_code": "CALLBACK_SCHEDULED",
+      "cta_attempted": true,
+      "next_action_at": "2025-12-18T15:00:00.000Z"
+    },
+    "description": "Call outcome: CALLBACK_SCHEDULED - Status changed to: follow_up - Next action scheduled for 12/18/2025 - Notes: callback tomorrow",
+    "created_at": "2025-12-17T22:22:35.060429+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "cad99ad5-90ae-49c0-ad10-89f9eb04a392",
+    "lead_id": "27fb40e1-c85a-4e06-896a-a97683b41a3d",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "voicemail",
+      "call_id": "a8b54cd9-eac5-4364-a67e-bc13a4221e41",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "cta_attempted": true,
+      "next_action_at": "2026-01-16T22:24:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: voicemail",
+    "created_at": "2025-12-17T22:24:13.378853+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "b20440fe-a113-44c0-954a-6d8435238dc1",
+    "lead_id": "b983371a-9e45-4f41-93a2-daa47e861065",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "f700487e-6194-4cc3-ab28-6189e9d4e413",
+      "call_type": "outbound",
+      "phone_number": "(313) 263-3159",
+      "twilio_call_sid": "CAef602b5d43c0f9302b8a9b4446279db2"
+    },
+    "description": "Called (313) 263-3159 via WebRTC",
+    "created_at": "2025-12-17T22:25:44.799742+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "93cf3e24-fcca-4311-891b-f08bb42fbf1a",
+    "lead_id": "9a011c45-0b74-45e4-b11c-b12208d45e29",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "call_id": "4e2c0114-1c99-42cd-916f-08ae9741bb89",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:26:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026",
+    "created_at": "2025-12-17T22:27:03.124475+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "4ebf5a8d-ac94-42e3-b746-c8e6b7975405",
+    "lead_id": "73a7b8eb-ac36-49cb-9ae6-fa4064991e3c",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "no answer",
+      "call_id": "88bce30c-2f7c-45df-be3b-0445a3330976",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:28:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: no answer",
+    "created_at": "2025-12-17T22:28:56.382917+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "58f085cb-01fd-4d03-b6d1-0a5b6734b1a1",
+    "lead_id": "83a2c9dc-c0d3-4b7a-9b64-952901fdab0f",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "3889a1d2-2c90-43b2-b35b-636c304cf9f5",
+      "call_type": "outbound",
+      "phone_number": "(678) 343-6848",
+      "twilio_call_sid": "CAf794ab422858c2d22636e268a9d68526"
+    },
+    "description": "Called (678) 343-6848 via WebRTC",
+    "created_at": "2025-12-17T22:29:25.758255+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "1347f969-e21b-4915-8828-9c00154cb7da",
+    "lead_id": "83a2c9dc-c0d3-4b7a-9b64-952901fdab0f",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "voicemail",
+      "call_id": "3889a1d2-2c90-43b2-b35b-636c304cf9f5",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:30:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: voicemail",
+    "created_at": "2025-12-17T22:30:36.961649+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "c95bb86a-1d83-4138-9e27-c1a753c0aea2",
+    "lead_id": "86cc3f13-2cc5-489e-9a24-f935df3b806d",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "0d663bab-419e-4f35-9612-84f33c6acbe6",
+      "call_type": "outbound",
+      "phone_number": "(404) 587-8835",
+      "twilio_call_sid": "CA0b4f462fc938663ea74a74a1d5e11fb9"
+    },
+    "description": "Called (404) 587-8835 via WebRTC",
+    "created_at": "2025-12-17T22:32:03.651369+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "a78ad717-90c7-49c9-8d12-29eacd8f6932",
+    "lead_id": "86cc3f13-2cc5-489e-9a24-f935df3b806d",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "voicemail",
+      "call_id": "0d663bab-419e-4f35-9612-84f33c6acbe6",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:32:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: voicemail",
+    "created_at": "2025-12-17T22:32:40.046362+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "9348c70a-ee9f-46ba-8e64-d839d64b83ea",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "??",
+      "direction": "inbound",
+      "twilio_sid": "SM37ab46028dbf2e4ba95c6892716471f7",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: ??",
+    "created_at": "2025-12-07T20:42:48.214609+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "d90902e2-e73f-4fda-a82c-7d191fd58fbd",
+    "lead_id": "9a011c45-0b74-45e4-b11c-b12208d45e29",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "4e2c0114-1c99-42cd-916f-08ae9741bb89",
+      "call_type": "outbound",
+      "phone_number": "(609) 625-1718",
+      "twilio_call_sid": "CA2b9a8005b6e691ce92fd452afa8fc2ec"
+    },
+    "description": "Called (609) 625-1718 via WebRTC",
+    "created_at": "2025-12-17T22:22:37.498038+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "faec78c9-7262-401f-b01b-08b28d5f19fd",
+    "lead_id": "b983371a-9e45-4f41-93a2-daa47e861065",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "no answer",
+      "call_id": "f700487e-6194-4cc3-ab28-6189e9d4e413",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:26:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: no answer",
+    "created_at": "2025-12-17T22:26:32.92001+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "faed7c4d-06f4-4aef-8807-41cd45f5ddac",
+    "lead_id": "73a7b8eb-ac36-49cb-9ae6-fa4064991e3c",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "88bce30c-2f7c-45df-be3b-0445a3330976",
+      "call_type": "outbound",
+      "phone_number": "(770) 943-9979",
+      "twilio_call_sid": "CAb7804d2a8eccca61679ae27e87fa267e"
+    },
+    "description": "Called (770) 943-9979 via WebRTC",
+    "created_at": "2025-12-17T22:27:42.876829+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "a543f55f-f16c-47d5-96b9-b2e55691d9b5",
+    "lead_id": "2a7e54f3-ba82-49c1-a2ca-fcfd2ea80424",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "5cb8efde-bec4-420f-b58d-fb9f0ed43144",
+      "call_type": "outbound",
+      "phone_number": "(908) 687-1051",
+      "twilio_call_sid": "CAec12a62cec29a7e79e2895a2f94a4829"
+    },
+    "description": "Called (908) 687-1051 via WebRTC",
+    "created_at": "2025-12-17T22:30:40.050419+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "2e13ebe7-0fee-4824-81fc-279d71bd4be7",
+    "lead_id": "e8d80813-35af-4207-9e36-c5fda87a7007",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "88644fcd-18c7-446b-b2cf-0ff4c6d90dbb",
+      "call_type": "outbound",
+      "phone_number": "(706) 432-0600",
+      "twilio_call_sid": "CAf714328187fe54b23ae9cd65f820bb88"
+    },
+    "description": "Called (706) 432-0600 via WebRTC",
+    "created_at": "2025-12-17T22:30:41.807363+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "e1d2a6a1-b2be-4458-95c6-1af1474da669",
+    "lead_id": "17e495ec-f46e-495d-893d-6a7d02138391",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "e0ce1bc7-3bfb-44de-b06f-386498cd44a6",
+      "call_type": "outbound",
+      "phone_number": "(609) 586-3225",
+      "twilio_call_sid": "CA4fd4a6e5985a4bf52289418b02affae5"
+    },
+    "description": "Called (609) 586-3225 via WebRTC",
+    "created_at": "2025-12-17T22:31:59.622401+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "5074fb9c-88f0-4f79-8029-a847d85a1405",
+    "lead_id": "96d96b39-5641-46cb-b0dd-e4c68de12133",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "call_id": "d50bc90d-848d-4044-b6ea-fd4b714c6867",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:34:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026",
+    "created_at": "2025-12-17T22:34:46.416267+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "95d33745-fe2e-4028-af25-ae80cec663ac",
+    "lead_id": "8e0db442-d0ab-4f9c-9a5d-c4596960c4b8",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "f81ddfb4-f03b-4964-8c0f-6faf168a42bb",
+      "call_type": "outbound",
+      "phone_number": "(706) 367-8632",
+      "twilio_call_sid": "CAd267c5e71518c84e240eb1f83a29f931"
+    },
+    "description": "Called (706) 367-8632 via WebRTC",
+    "created_at": "2025-12-17T22:34:50.645704+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "bc5f9289-3892-46ac-b49f-b7d4fd0df947",
+    "lead_id": "c648ed21-6aab-4a04-8ccc-1f03d9a4a37e",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "d3d3e2d9-ecb0-4ba4-952a-48d6bf97d2c6",
+      "call_type": "outbound",
+      "phone_number": "(973) 465-9383",
+      "twilio_call_sid": "CAd4b27f5af1226f58fece0da5519ab781"
+    },
+    "description": "Called (973) 465-9383 via WebRTC",
+    "created_at": "2025-12-17T22:38:13.291002+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "fddc7c8c-87f0-486e-b26d-74ac6b843f08",
+    "lead_id": "c648ed21-6aab-4a04-8ccc-1f03d9a4a37e",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "left a VM",
+      "call_id": "d3d3e2d9-ecb0-4ba4-952a-48d6bf97d2c6",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "cta_attempted": true,
+      "next_action_at": "2026-01-16T22:39:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: left a VM",
+    "created_at": "2025-12-17T22:39:41.505338+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "1a09aff8-83d3-4ef6-958a-e654475b70d2",
+    "lead_id": "324799fa-aae4-4dc4-a262-71a26a89466f",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "call_id": "113df29f-54e6-42d1-b2d8-0be9d93c271b",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:47:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026",
+    "created_at": "2025-12-17T22:47:05.125629+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "18bc09a5-db6a-4e9a-8904-4ba21979e407",
+    "lead_id": "3571d646-ffe2-4fdf-ad03-8bd47bbdaf10",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "868302d0-5890-4604-bd19-5bcba85e793f",
+      "call_type": "outbound",
+      "phone_number": "(901) 300-6178",
+      "twilio_call_sid": "CA287a6b857c46c6a182a463e0fc2553d0"
+    },
+    "description": "Called (901) 300-6178 via WebRTC",
+    "created_at": "2025-12-17T22:49:16.716454+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "e935b541-a290-477c-9659-4df77f5d70e9",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "Both ways?",
+      "direction": "inbound",
+      "twilio_sid": "SM5dd79e081e9f41ca8dcf983cc75ae13e",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: Both ways?",
+    "created_at": "2025-12-07T19:34:38.366133+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "e0978ee6-a12c-43f7-84a8-d835959f12da",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "Let's go!",
+      "direction": "inbound",
+      "twilio_sid": "SMc25f0d1f587c444bb6f89a7493ee390a",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: Let's go!",
+    "created_at": "2025-12-07T19:40:16.981658+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "6e9a2ea2-17db-4e06-9531-7eeee80bc4a1",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "Testing",
+      "direction": "inbound",
+      "twilio_sid": "SM4951da13a0e1ebde7bd5add6f43594e2",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: Testing",
+    "created_at": "2025-12-07T19:57:16.122186+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "06d53981-d431-4ab3-b571-4306ed2e6110",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "Howdy",
+      "direction": "inbound",
+      "twilio_sid": "SM46be07ad699a883e45cdbbc36f0b8073",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: Howdy",
+    "created_at": "2025-12-07T20:39:26.029735+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "89cc9c7e-ec99-4bb1-9e01-9b4b3d9000a7",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "Testtt",
+      "direction": "inbound",
+      "twilio_sid": "SMf33091251124731bb4bd882715463348",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: Testtt",
+    "created_at": "2025-12-07T20:47:22.518241+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "30e2a80f-d17f-43d4-a28b-21b77bb6d2f6",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "?",
+      "direction": "inbound",
+      "twilio_sid": "SMfcc400898d36725aa9135dc7656deeaf",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: ?",
+    "created_at": "2025-12-07T21:08:07.519506+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "aa2efe8b-5eb7-4acf-8ecf-5cfb01d274f7",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "It works",
+      "direction": "inbound",
+      "twilio_sid": "SMb30ba7d76cd3d908ff1e83703cefb55e",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: It works",
+    "created_at": "2025-12-07T21:12:02.686227+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "701aa160-2c49-4ffd-89cb-9c1f92a3889d",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "Now does",
+      "direction": "inbound",
+      "twilio_sid": "SMa369bbf70e29c77056da61f61cb227f8",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: Now does",
+    "created_at": "2025-12-07T21:33:28.940453+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "4e55be68-cf3e-4a70-9e63-dedd91dadf9e",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "It work?",
+      "direction": "inbound",
+      "twilio_sid": "SMfc4d167d182d25f802b21f52cdd4472b",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: It work?",
+    "created_at": "2025-12-07T21:33:54.981281+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "2d5e68e3-8a43-4039-b5b1-817d491a0276",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "Maybe",
+      "direction": "inbound",
+      "twilio_sid": "SMf3add459635eef9887eaa2d2e03677f1",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: Maybe",
+    "created_at": "2025-12-07T21:49:30.905273+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "72b69c7b-6ecd-4e19-b86e-a25941df5ab2",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "Does it work",
+      "direction": "inbound",
+      "twilio_sid": "SM896ba1472491d6ff410ea65745efd9ad",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: Does it work",
+    "created_at": "2025-12-07T22:00:55.861483+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "ad03fdae-aca8-49df-806c-e9dee8de4c8e",
+    "lead_id": "a10f7c75-dd71-402e-8628-59057e5efcc0",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "9853851b-3bc6-4dba-8b5a-364da70cdc31",
+      "call_type": "outbound",
+      "phone_number": "(229) 633-3117",
+      "twilio_call_sid": "CA708ed688c713dfe7ec101695ff2e3ed3"
+    },
+    "description": "Called (229) 633-3117 via WebRTC",
+    "created_at": "2025-12-17T22:26:37.374262+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "ec34fbc9-5b81-463a-9d16-648e474a2495",
+    "lead_id": "a10f7c75-dd71-402e-8628-59057e5efcc0",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "DNC",
+      "call_id": "9853851b-3bc6-4dba-8b5a-364da70cdc31",
+      "outcome": "not_interested",
+      "lead_status": "not_interested",
+      "outcome_code": "NOT_INTERESTED",
+      "cta_attempted": true,
+      "next_action_at": null
+    },
+    "description": "Call outcome: NOT_INTERESTED - Status changed to: not_interested - Notes: DNC",
+    "created_at": "2025-12-17T22:27:23.564509+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "1516b01b-ea2d-480b-926d-a2ab60c60f92",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "It's working?",
+      "direction": "inbound",
+      "twilio_sid": "SMe3c2dac2c57e516701245766de0bd6f5",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: It's working?",
+    "created_at": "2025-12-07T22:08:21.046283+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "86fd731f-351c-46b8-bd4e-2c482bb22e34",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "It is",
+      "direction": "inbound",
+      "twilio_sid": "SM9abc9ddd737d207c991a82f7d6285074",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: It is",
+    "created_at": "2025-12-07T22:15:42.026467+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "1c704aa1-9a9d-43f3-ac9c-a355ace1b0bc",
+    "lead_id": "e8d80813-35af-4207-9e36-c5fda87a7007",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "no answer",
+      "call_id": "88644fcd-18c7-446b-b2cf-0ff4c6d90dbb",
+      "outcome": "busy",
+      "lead_status": "contacted",
+      "outcome_code": "BUSY",
+      "next_action_at": "2026-01-16T22:31:00.000Z"
+    },
+    "description": "Call outcome: BUSY - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: no answer",
+    "created_at": "2025-12-17T22:31:29.139787+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "d65fd3ae-f2a4-471f-b907-ee13f7b87423",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "Jssjis",
+      "direction": "inbound",
+      "twilio_sid": "SMada8c55f7f8dc1d9db387e45f3f00e92",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: Jssjis",
+    "created_at": "2025-12-07T22:16:40.201424+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "a1c9f93a-f0b7-4cd1-89a4-6e0d41f4a25b",
+    "lead_id": "a405f0ea-758a-4b0b-9777-ec37f73e947d",
+    "user_id": "455c56a4-f675-497f-9041-e54a7838f723",
+    "activity_type": "sms_sent",
+    "activity_data": {
+      "message": "Let's see",
+      "direction": "inbound",
+      "twilio_sid": "SMb1acb58ad28b93e1d47c23920866218d",
+      "phone_number": "+12627770909"
+    },
+    "description": "Received SMS: Let's see",
+    "created_at": "2025-12-07T22:23:37.79629+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  },
+  {
+    "id": "4e244871-9361-411b-a62e-1bdaaf30957a",
+    "lead_id": "2a7e54f3-ba82-49c1-a2ca-fcfd2ea80424",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "left a VM",
+      "call_id": "5cb8efde-bec4-420f-b58d-fb9f0ed43144",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:31:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: left a VM",
+    "created_at": "2025-12-17T22:31:56.551296+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "16e8afbc-073a-4b33-93fb-8c055bf24fa0",
+    "lead_id": "a4a9a700-5820-45e9-acca-a4280b44d48e",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "514d5bdb-1ac5-474d-a463-7f09163de443",
+      "call_type": "outbound",
+      "phone_number": "(678) 887-2952",
+      "twilio_call_sid": "CA9f8ed7323d967d81f9c3cc1582c95bbc"
+    },
+    "description": "Called (678) 887-2952 via WebRTC",
+    "created_at": "2025-12-17T22:32:53.819722+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "a2fa856a-d9c4-48b8-8cdd-00ab336b7a6d",
+    "lead_id": "a4a9a700-5820-45e9-acca-a4280b44d48e",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "already spoke to an agent",
+      "call_id": "514d5bdb-1ac5-474d-a463-7f09163de443",
+      "outcome": "not_interested",
+      "lead_status": "not_interested",
+      "outcome_code": "NOT_INTERESTED",
+      "cta_attempted": true,
+      "next_action_at": "2026-03-17T22:33:00.000Z"
+    },
+    "description": "Call outcome: NOT_INTERESTED - Status changed to: not_interested - Next action scheduled for 3/17/2026 - Notes: already spoke to an agent",
+    "created_at": "2025-12-17T22:34:06.771815+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "b2f9411a-6428-4a1a-8d2a-7b15c3bf4626",
+    "lead_id": "8e0db442-d0ab-4f9c-9a5d-c4596960c4b8",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "dead air",
+      "call_id": "f81ddfb4-f03b-4964-8c0f-6faf168a42bb",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:35:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: dead air",
+    "created_at": "2025-12-17T22:35:22.716094+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "6a07b525-baba-463d-8684-0da947b505ba",
+    "lead_id": "f394ada1-3df1-4b23-a018-0d338fd708d4",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "33a8fd0c-9f69-4ffa-9321-3c629c8f8a67",
+      "call_type": "outbound",
+      "phone_number": "(973) 626-9494",
+      "twilio_call_sid": "CAff76f703b8fbebe80595db637dc8d306"
+    },
+    "description": "Called (973) 626-9494 via WebRTC",
+    "created_at": "2025-12-17T22:36:06.165344+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "fb6e039c-f81a-40fb-990f-b8aadc150f4f",
+    "lead_id": "c427de96-a162-4b63-84c9-16885cbdb43d",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "408a8aef-4094-4986-bbac-fe10d8f11801",
+      "call_type": "outbound",
+      "phone_number": "(973) 278-4633",
+      "twilio_call_sid": "CA0928e051de48332652db2c0b7536e2ea"
+    },
+    "description": "Called (973) 278-4633 via WebRTC",
+    "created_at": "2025-12-17T22:36:34.197039+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "a7c43efa-330c-4c72-be66-7363bf11b5a9",
+    "lead_id": "1ca67319-e014-4a66-8ea4-6332e9cf232e",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "00340f77-390f-4c3b-b33d-238c2577b407",
+      "call_type": "outbound",
+      "phone_number": "(973) 827-3696",
+      "twilio_call_sid": "CA75642d7459ef81176f2046d4fcba80ed"
+    },
+    "description": "Called (973) 827-3696 via WebRTC",
+    "created_at": "2025-12-17T22:44:29.621771+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "18211679-252a-493a-bb44-bd2cad298bf7",
+    "lead_id": "1ca67319-e014-4a66-8ea4-6332e9cf232e",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "left a VM",
+      "call_id": "00340f77-390f-4c3b-b33d-238c2577b407",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:45:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: left a VM",
+    "created_at": "2025-12-17T22:45:33.890836+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "768c6a88-35d8-4ad7-b24c-7a338fc88c0b",
+    "lead_id": "6980ada9-ac98-4993-ad35-ae80e15a6902",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "e00de00d-2fac-4d07-8695-a91904bdcd23",
+      "call_type": "outbound",
+      "phone_number": "(732) 382-0754",
+      "twilio_call_sid": "CA039070aafa907fd6ed250aac1c3ee7a2"
+    },
+    "description": "Called (732) 382-0754 via WebRTC",
+    "created_at": "2025-12-17T22:53:16.854339+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "0a53aab9-172d-4543-8f2c-73bc5ff7f80b",
+    "lead_id": "17e495ec-f46e-495d-893d-6a7d02138391",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "left a VM",
+      "call_id": "e0ce1bc7-3bfb-44de-b06f-386498cd44a6",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:33:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: left a VM",
+    "created_at": "2025-12-17T22:33:43.525587+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "39298a22-0a4b-4c42-a058-57178ca61f24",
+    "lead_id": "96d96b39-5641-46cb-b0dd-e4c68de12133",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "d50bc90d-848d-4044-b6ea-fd4b714c6867",
+      "call_type": "outbound",
+      "phone_number": "(856) 468-5440",
+      "twilio_call_sid": "CA7eddb6596cbe9dad9d0d3472ebcc865f"
+    },
+    "description": "Called (856) 468-5440 via WebRTC",
+    "created_at": "2025-12-17T22:34:02.122996+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "c44602f8-c701-4f59-82f7-0da8319269c7",
+    "lead_id": "c221ff4f-0b62-4480-8e7d-13175569254d",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "4bab2c81-9c15-4430-8bfd-06a8e8a93ec5",
+      "call_type": "outbound",
+      "phone_number": "(762) 251-8532",
+      "twilio_call_sid": "CAd8dff5d3c347b472844b9c92005084b3"
+    },
+    "description": "Called (762) 251-8532 via WebRTC",
+    "created_at": "2025-12-17T22:34:13.147829+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "94b66aac-03c9-4fd2-9871-2ff69fefacd5",
+    "lead_id": "c221ff4f-0b62-4480-8e7d-13175569254d",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "no answer",
+      "call_id": "4bab2c81-9c15-4430-8bfd-06a8e8a93ec5",
+      "outcome": "busy",
+      "lead_status": "contacted",
+      "outcome_code": "BUSY",
+      "next_action_at": "2026-01-16T22:34:00.000Z"
+    },
+    "description": "Call outcome: BUSY - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: no answer",
+    "created_at": "2025-12-17T22:34:37.812219+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "5cd925b8-3dd3-46a5-ae6d-ce4d1f187743",
+    "lead_id": "e9fba903-280c-4182-bb13-b492b7cebac1",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "af2d00df-ea90-4e44-a6b8-f561e59e8ca5",
+      "call_type": "outbound",
+      "phone_number": "(901) 785-5554",
+      "twilio_call_sid": "CAea30fa0a7bdd55ab7041e96b9bc7745e"
+    },
+    "description": "Called (901) 785-5554 via WebRTC",
+    "created_at": "2025-12-17T22:36:12.751464+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "fd298bc7-891c-4f80-9785-f5e8bde8723d",
+    "lead_id": "f394ada1-3df1-4b23-a018-0d338fd708d4",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "call_id": "33a8fd0c-9f69-4ffa-9321-3c629c8f8a67",
+      "outcome": "not_interested",
+      "lead_status": "not_interested",
+      "outcome_code": "NOT_INTERESTED",
+      "cta_attempted": true,
+      "next_action_at": "2026-03-17T21:36:00.000Z"
+    },
+    "description": "Call outcome: NOT_INTERESTED - Status changed to: not_interested - Next action scheduled for 3/17/2026",
+    "created_at": "2025-12-17T22:36:31.177385+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "d48f2c6b-d8ab-415f-bd94-b0fa9f89bef6",
+    "lead_id": "c427de96-a162-4b63-84c9-16885cbdb43d",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "hung up quickly",
+      "call_id": "408a8aef-4094-4986-bbac-fe10d8f11801",
+      "outcome": "busy",
+      "lead_status": "contacted",
+      "outcome_code": "BUSY",
+      "next_action_at": "2026-01-16T22:37:00.000Z"
+    },
+    "description": "Call outcome: BUSY - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: hung up quickly",
+    "created_at": "2025-12-17T22:37:27.379984+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "334c04e5-3403-4bad-8bb8-6afb9295c250",
+    "lead_id": "324799fa-aae4-4dc4-a262-71a26a89466f",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "113df29f-54e6-42d1-b2d8-0be9d93c271b",
+      "call_type": "outbound",
+      "phone_number": "(800) 735-8464",
+      "twilio_call_sid": "CAebfc35e65a78fb0e6467d003b10ab19e"
+    },
+    "description": "Called (800) 735-8464 via WebRTC",
+    "created_at": "2025-12-17T22:45:47.079126+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "48b2c20c-8fb6-40aa-881f-dd1ab7f3d1a3",
+    "lead_id": "1d1f06e9-fdca-4f1d-aa1e-1f67dc50aaa3",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "69dfb33c-5e14-4468-8832-f80343ef8237",
+      "call_type": "outbound",
+      "phone_number": "(201) 509-2495",
+      "twilio_call_sid": "CAa59faaf0c87114574e537b4024fe08cf"
+    },
+    "description": "Called (201) 509-2495 via WebRTC",
+    "created_at": "2025-12-17T22:37:29.620889+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "60a1bb0c-2f9f-4ca2-aebf-8bbeba7fc427",
+    "lead_id": "1d1f06e9-fdca-4f1d-aa1e-1f67dc50aaa3",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "hung up qickly",
+      "call_id": "69dfb33c-5e14-4468-8832-f80343ef8237",
+      "outcome": "busy",
+      "lead_status": "contacted",
+      "outcome_code": "BUSY",
+      "next_action_at": "2026-01-16T22:38:00.000Z"
+    },
+    "description": "Call outcome: BUSY - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: hung up qickly",
+    "created_at": "2025-12-17T22:38:11.118248+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "8510bfc2-9ba0-4551-a5df-f8b23924f20b",
+    "lead_id": "29c70dc1-3878-46ce-9b2f-355c2fbe74a2",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "5593333f-a99f-4e6c-8963-5ebb30f04be8",
+      "call_type": "outbound",
+      "phone_number": "(908) 689-0013",
+      "twilio_call_sid": "CA65c4009070f467e721fcd4936e3551fc"
+    },
+    "description": "Called (908) 689-0013 via WebRTC",
+    "created_at": "2025-12-17T22:39:43.61251+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "47b859d4-f74f-4e1b-b330-c9ae33a7c286",
+    "lead_id": "29c70dc1-3878-46ce-9b2f-355c2fbe74a2",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "left a VM",
+      "call_id": "5593333f-a99f-4e6c-8963-5ebb30f04be8",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:41:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026 - Notes: left a VM",
+    "created_at": "2025-12-17T22:41:30.533109+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "6220df69-a15b-47e8-ada9-e4d0c157f648",
+    "lead_id": "6980ada9-ac98-4993-ad35-ae80e15a6902",
+    "user_id": "3cc9b9e3-eb27-4c12-9d1f-a53e6da559cb",
+    "activity_type": "status_change",
+    "activity_data": {
+      "notes": "hung up quickly after sales pitch",
+      "call_id": "e00de00d-2fac-4d07-8695-a91904bdcd23",
+      "outcome": "not_interested",
+      "lead_status": "not_interested",
+      "outcome_code": "NOT_INTERESTED",
+      "cta_attempted": true,
+      "next_action_at": "2026-03-17T21:53:00.000Z"
+    },
+    "description": "Call outcome: NOT_INTERESTED - Status changed to: not_interested - Next action scheduled for 3/17/2026 - Notes: hung up quickly after sales pitch",
+    "created_at": "2025-12-17T22:54:02.625284+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "09a30fa2-b734-4bf4-9ba8-c349fb851ecc",
+    "lead_id": "e9fba903-280c-4182-bb13-b492b7cebac1",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "call_made",
+    "activity_data": {
+      "method": "webrtc",
+      "call_id": "61f4da4d-190a-4e45-9750-f7ad66cffc3f",
+      "call_type": "outbound",
+      "phone_number": "(901) 785-5554",
+      "twilio_call_sid": "CA0a0d8809bf980db3fa3ee0f52b698945"
+    },
+    "description": "Called (901) 785-5554 via WebRTC",
+    "created_at": "2025-12-17T22:58:27.975994+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "9951b766-2daa-4940-93d0-4b0315ac8267",
+    "lead_id": "e9fba903-280c-4182-bb13-b492b7cebac1",
+    "user_id": "081c3c8b-0cc0-45fe-af76-a7aed7c6e7ef",
+    "activity_type": "status_change",
+    "activity_data": {
+      "call_id": "61f4da4d-190a-4e45-9750-f7ad66cffc3f",
+      "outcome": "no_answer",
+      "lead_status": "contacted",
+      "outcome_code": "NO_ANSWER",
+      "next_action_at": "2026-01-16T22:58:00.000Z"
+    },
+    "description": "Call outcome: NO_ANSWER - Status changed to: contacted - Next action scheduled for 1/16/2026",
+    "created_at": "2025-12-17T22:58:55.628001+00:00",
+    "organization_id": "d9ae61c2-1abd-44db-9064-8f17c69f6d27"
+  },
+  {
+    "id": "ab1c00b4-d2f0-4ea8-b6be-19bb3f38e0b3",
+    "lead_id": "128dfbe1-320d-481c-850e-a06b4dc50b3e",
+    "user_id": "fbe89088-b1a5-41d3-ba1e-ea883ceef3f6",
+    "activity_type": "email_sent",
+    "activity_data": {
+      "subject": "url",
+      "email_id": "1588712d-0963-4421-be90-9de745e86ad2",
+      "to_email": "ernie.bedia@yahoo.com",
+      "scheduled_for": null
+    },
+    "description": "Sent email: url",
+    "created_at": "2025-12-09T12:21:11.240095+00:00",
+    "organization_id": "4c168d76-038c-4f17-8c8a-ac0e3e0addbe"
+  }
+]

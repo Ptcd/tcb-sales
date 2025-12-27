@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Force dark theme on form inputs with dark backgrounds */
+input[class*="bg-slate-"], textarea[class*="bg-slate-"], select[class*="bg-slate-"] {
+  color-scheme: dark;
+}
+
+/* Fix autofill styling for dark inputs (slate-700, slate-800, slate-900) */
+input[class*="bg-slate-"]:-webkit-autofill,
+input[class*="bg-slate-"]:-webkit-autofill:hover,
+input[class*="bg-slate-"]:-webkit-autofill:focus,
+textarea[class*="bg-slate-"]:-webkit-autofill,
+textarea[class*="bg-slate-"]:-webkit-autofill:hover,
+textarea[class*="bg-slate-"]:-webkit-autofill:focus,
+select[class*="bg-slate-"]:-webkit-autofill,
+select[class*="bg-slate-"]:-webkit-autofill:hover,
+select[class*="bg-slate-"]:-webkit-autofill:focus {
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-box-shadow: 0 0 0 1000px #1e293b inset !important;
+  box-shadow: 0 0 0 1000px #1e293b inset !important;
+  background-color: #1e293b !important;
+}
