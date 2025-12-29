@@ -10,9 +10,24 @@ ADD COLUMN IF NOT EXISTS max_meetings_per_day INTEGER DEFAULT 6,
 ADD COLUMN IF NOT EXISTS is_accepting_meetings BOOLEAN DEFAULT true;
 
 -- 2. Create activation_meetings table
-CREATE TYPE IF NOT EXISTS activation_meeting_status AS ENUM ('scheduled', 'completed', 'no_show', 'rescheduled', 'canceled');
-CREATE TYPE IF NOT EXISTS attendee_role AS ENUM ('owner', 'web_guy', 'office_manager', 'other');
-CREATE TYPE IF NOT EXISTS website_platform AS ENUM ('wordpress', 'wix', 'squarespace', 'shopify', 'none', 'unknown', 'other');
+-- Create types if they don't exist (PostgreSQL doesn't support IF NOT EXISTS for CREATE TYPE)
+DO $$ BEGIN
+    CREATE TYPE activation_meeting_status AS ENUM ('scheduled', 'completed', 'no_show', 'rescheduled', 'canceled');
+EXCEPTION
+    WHEN duplicate_object THEN null;
+END $$;
+
+DO $$ BEGIN
+    CREATE TYPE attendee_role AS ENUM ('owner', 'web_guy', 'office_manager', 'other');
+EXCEPTION
+    WHEN duplicate_object THEN null;
+END $$;
+
+DO $$ BEGIN
+    CREATE TYPE website_platform AS ENUM ('wordpress', 'wix', 'squarespace', 'shopify', 'none', 'unknown', 'other');
+EXCEPTION
+    WHEN duplicate_object THEN null;
+END $$;
 
 CREATE TABLE IF NOT EXISTS activation_meetings (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),

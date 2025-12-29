@@ -1,48 +1,12 @@
 {
   "crons": [
     {
-      "path": "/api/cron/kpi-notifications",
-      "schedule": "*/5 * * * *"
-    },
-    {
-      "path": "/api/sync-client-events",
-      "schedule": "*/5 * * * *"
-    },
-    {
       "path": "/api/cron/generate-daily-summaries",
       "schedule": "0 23 * * *"
     },
     {
-      "path": "/api/cron/generate-weekly-summaries",
-      "schedule": "0 23 * * 5"
-    },
-    {
-      "path": "/api/cron/generate-trial-reviews",
-      "schedule": "0 23 * * *"
-    },
-    {
-      "path": "/api/cron/cleanup-recordings",
-      "schedule": "0 3 * * *"
-    },
-    {
       "path": "/api/cron/send-meeting-reminders",
-      "schedule": "*/15 * * * *"
-    },
-    {
-      "path": "/api/cron/daily-admin-summary",
-      "schedule": "0 23 * * *"
-    },
-    {
-      "path": "/api/cron/activator-daily-summary",
-      "schedule": "0 23 * * *"
-    },
-    {
-      "path": "/api/cron/generate-cost-rollups",
-      "schedule": "0 1 * * *"
-    },
-    {
-      "path": "/api/cron/governance-weekly-summary",
-      "schedule": "0 18 * * 5"
+      "schedule": "0 8 * * *"
     }
   ]
 }

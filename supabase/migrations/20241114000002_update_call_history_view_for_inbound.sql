@@ -1,5 +1,7 @@
 -- Update user_call_history view to include inbound calls
-CREATE OR REPLACE VIEW user_call_history AS
+-- Note: is_new column added in next migration (20241114000003)
+DROP VIEW IF EXISTS user_call_history;
+CREATE VIEW user_call_history AS
 SELECT 
   c.id,
   c.lead_id,
@@ -10,7 +12,6 @@ SELECT
   c.duration,
   c.direction,
   c.voicemail_left,
-  c.is_new,
   c.twilio_call_sid,
   c.twilio_recording_sid,
   c.recording_url,

@@ -7,38 +7,53 @@
 -- ============================================
 
 -- Extend activation_status enum with attended/no_show
-DO $$ BEGIN
-  ALTER TYPE activation_status_type ADD VALUE IF NOT EXISTS 'attended';
+-- First check if the type exists, then add values
+DO $$ 
+BEGIN
+  -- Check if type exists before trying to add values
+  IF EXISTS (SELECT 1 FROM pg_type WHERE typname = 'activation_status_type') THEN
+    -- Add 'attended' if it doesn't already exist
+    IF NOT EXISTS (
+      SELECT 1 FROM pg_enum 
+      WHERE enumlabel = 'attended' 
+      AND enumtypid = (SELECT oid FROM pg_type WHERE typname = 'activation_status_type')
+    ) THEN
+      ALTER TYPE activation_status_type ADD VALUE 'attended';
+    END IF;
+    
+    -- Add 'no_show' if it doesn't already exist
+    IF NOT EXISTS (
+      SELECT 1 FROM pg_enum 
+      WHERE enumlabel = 'no_show' 
+      AND enumtypid = (SELECT oid FROM pg_type WHERE typname = 'activation_status_type')
+    ) THEN
+      ALTER TYPE activation_status_type ADD VALUE 'no_show';
+    END IF;
+  END IF;
 EXCEPTION
-  WHEN duplicate_object THEN null;
-END $$;
-
-DO $$ BEGIN
-  ALTER TYPE activation_status_type ADD VALUE IF NOT EXISTS 'no_show';
-EXCEPTION
-  WHEN duplicate_object THEN null;
+  WHEN OTHERS THEN null;
 END $$;
 
 -- Add scheduling/tracking columns to trial_pipeline
-ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS
-  scheduled_start_at TIMESTAMPTZ,
-  scheduled_end_at TIMESTAMPTZ,
-  scheduled_timezone TEXT,
-  scheduled_with_name TEXT,
-  scheduled_with_role TEXT, -- owner/web_guy/manager/receptionist/other
-  website_platform TEXT,
-  lead_phone TEXT,
-  lead_email TEXT,
-  timezone_inferred_from TEXT, -- area_code/manual/unknown
-  timezone_confidence SMALLINT,
-  attempts_count INT DEFAULT 0,
-  scheduled_by_user_id UUID REFERENCES auth.users(id),
-  scheduled_at TIMESTAMPTZ,
-  attended_at TIMESTAMPTZ,
-  no_show_at TIMESTAMPTZ,
-  activated_at TIMESTAMPTZ,
-  killed_at TIMESTAMPTZ,
-  reschedule_count INT DEFAULT 0;
+-- Note: Each column must be added separately when using IF NOT EXISTS
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS scheduled_start_at TIMESTAMPTZ;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS scheduled_end_at TIMESTAMPTZ;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS scheduled_timezone TEXT;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS scheduled_with_name TEXT;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS scheduled_with_role TEXT; -- owner/web_guy/manager/receptionist/other
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS website_platform TEXT;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS lead_phone TEXT;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS lead_email TEXT;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS timezone_inferred_from TEXT; -- area_code/manual/unknown
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS timezone_confidence SMALLINT;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS attempts_count INT DEFAULT 0;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS scheduled_by_user_id UUID REFERENCES auth.users(id);
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS scheduled_at TIMESTAMPTZ;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS attended_at TIMESTAMPTZ;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS no_show_at TIMESTAMPTZ;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS activated_at TIMESTAMPTZ;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS killed_at TIMESTAMPTZ;
+ALTER TABLE trial_pipeline ADD COLUMN IF NOT EXISTS reschedule_count INT DEFAULT 0;
 
 -- Comments for documentation
 COMMENT ON COLUMN trial_pipeline.scheduled_with_role IS 'Role of person attending: owner/web_guy/manager/receptionist/other';
@@ -105,10 +120,9 @@ CREATE POLICY "Service role can manage activation events"
 -- A3: Extend activator availability settings
 -- ============================================
 
-ALTER TABLE agent_schedules ADD COLUMN IF NOT EXISTS
-  min_notice_hours INT DEFAULT 2,
-  booking_window_days INT DEFAULT 14,
-  meeting_link TEXT; -- Static Google Meet link
+ALTER TABLE agent_schedules ADD COLUMN IF NOT EXISTS min_notice_hours INT DEFAULT 2;
+ALTER TABLE agent_schedules ADD COLUMN IF NOT EXISTS booking_window_days INT DEFAULT 14;
+ALTER TABLE agent_schedules ADD COLUMN IF NOT EXISTS meeting_link TEXT; -- Static Google Meet link
 
 -- Comments
 COMMENT ON COLUMN agent_schedules.min_notice_hours IS 'Minimum hours notice required for booking (default 2)';
