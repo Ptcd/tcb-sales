@@ -5,11 +5,23 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
 export async function signUp(formData: FormData) {
-  const supabase = await createClient();
+  console.log("=== SIGNUP DEBUG START ===");
+  
+  let supabase;
+  try {
+    supabase = await createClient();
+    console.log("✅ Supabase client created successfully");
+  } catch (clientError) {
+    console.error("❌ Failed to create Supabase client:", clientError);
+    return { error: "Server configuration error. Please contact support." };
+  }
 
   const email = formData.get("email") as string;
   const password = formData.get("password") as string;
   const firstName = formData.get("firstName") as string | null;
+
+  console.log("📧 Signup attempt for email:", email);
+  console.log("👤 First name:", firstName || "(not provided)");
 
   const data = {
     email,
@@ -21,16 +33,26 @@ export async function signUp(formData: FormData) {
     },
   };
 
-  console.log("Attempting sign up for user");
+  console.log("🔄 Calling supabase.auth.signUp...");
   const { data: signUpData, error } = await supabase.auth.signUp(data);
 
   if (error) {
-    console.error("Sign up error:", error);
-    console.error("Error details:", {
-      message: error.message,
-      status: error.status,
-      name: error.name
-    });
+    console.error("❌ SIGNUP ERROR ❌");
+    console.error("Error message:", error.message);
+    console.error("Error status:", error.status);
+    console.error("Error name:", error.name);
+    console.error("Error code:", (error as any).code);
+    console.error("Full error object:", JSON.stringify(error, null, 2));
+    console.error("Error cause:", (error as any).cause);
+    console.error("Error stack:", error.stack);
+    
+    // Log if this looks like an SMTP/email error
+    if (error.message.toLowerCase().includes("email") || 
+        error.message.toLowerCase().includes("smtp") ||
+        error.message.toLowerCase().includes("send")) {
+      console.error("🔴 THIS APPEARS TO BE AN EMAIL/SMTP ERROR");
+      console.error("Check Supabase Dashboard -> Auth -> SMTP Settings");
+    }
 
     // Check if user already exists but is unconfirmed
     if (error.message.toLowerCase().includes("user already registered")) {
@@ -52,12 +74,21 @@ export async function signUp(formData: FormData) {
       };
     }
 
+    console.log("=== SIGNUP DEBUG END (with error) ===");
     return { error: error.message };
   }
 
+  // Log successful signup
+  console.log("✅ SIGNUP SUCCESSFUL");
+  console.log("User ID:", signUpData.user?.id);
+  console.log("User email:", signUpData.user?.email);
+  console.log("Email confirmed:", signUpData.user?.email_confirmed_at ? "yes" : "no");
+  console.log("Session:", signUpData.session ? "created" : "none (email confirmation required)");
+
   // Check if user was created but needs email confirmation
   if (signUpData.user && !signUpData.user.email_confirmed_at) {
-    console.log("User created, email confirmation required");
+    console.log("📧 Email confirmation required - user should receive confirmation email");
+    console.log("=== SIGNUP DEBUG END (success, needs confirmation) ===");
     return {
       error:
         "Account created successfully! Please check your email and click the confirmation link to activate your account. If you don't see the email, check your spam folder.",
@@ -66,6 +97,7 @@ export async function signUp(formData: FormData) {
   }
 
   // User was created and confirmed (shouldn't happen normally)
+  console.log("=== SIGNUP DEBUG END (fully confirmed) ===");
   revalidatePath("/", "layout");
   redirect("/dashboard");
 }
