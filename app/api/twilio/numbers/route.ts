@@ -1,4 +1,4 @@
-// Phone numbers API route - handles GET (list) and POST (purchase)
+// Phone numbers API route - handles GET (list) and POST (purchase) - deployed
 import { NextResponse } from "next/server";
 import { createClient, createServiceRoleClient } from "@/lib/supabase/server";
 import twilio from "twilio";
