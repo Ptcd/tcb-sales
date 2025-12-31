@@ -28,6 +28,7 @@
     "libphonenumber-js": "^1.12.25",
     "lucide-react": "^0.545.0",
     "next": "^16.0.7",
+    "nodemailer": "^7.0.12",
     "papaparse": "^5.5.3",
     "phone-number-to-timezone": "^1.0.8",
     "puppeteer": "^24.25.0",
@@ -43,6 +44,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/nodemailer": "^7.0.4",
     "@types/papaparse": "^5.3.16",
     "@types/react": "^19",
     "@types/react-dom": "^19",
